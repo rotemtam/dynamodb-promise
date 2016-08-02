@@ -1,0 +1,32 @@
+{
+  "name": "dynamodb-promise",
+  "version": "1.0.0",
+  "description": "promisified dynamodb Document Client , with some useful helpers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'tests/**/**.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotemtam/dynamodb-promise.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "aws",
+    "promisify"
+  ],
+  "author": "Rotem Tamir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rotemtam/dynamodb-promise/issues"
+  },
+  "homepage": "https://github.com/rotemtam/dynamodb-promise#readme",
+  "dependencies": {
+    "aws-sdk": "^2.4.11",
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0"
+  }
+}

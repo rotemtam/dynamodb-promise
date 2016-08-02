@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "promisified dynamodb Document Client , with some useful helpers",
   "main": "src/index.js",
   "scripts": {

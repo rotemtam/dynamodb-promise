@@ -4,10 +4,18 @@ A Promisified dynamodb Document Client , with some useful helpers
 
 ### Usage
 
+Install:
+
+```bash
+npm i --save dynamodb-promise
+```
+
+Use:
+
 ```js
 'use strict';
 
-const DocumentClient = require('../src/index')
+const DocumentClient = require('dynamodb-promise')
  , co = require('co');
 
 let docClient = DocumentClient({region: 'us-east-1'});

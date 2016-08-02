@@ -1,6 +1,6 @@
 'use strict';
 
-const DocumentClient = require('../src/index')
+const DocumentClient = require('dynamodb-promise')
  , co = require('co');
 
 let docClient = DocumentClient({region: 'us-east-1'});
